@@ -1,0 +1,142 @@
+.setting-wrap{
+    width: 90%;
+    background-color: #E5E5E5;
+    position: relative;
+    padding-bottom: 190px;
+}
+
+.setting-title{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.setting-wrap-all{
+    width: 1200px;
+    background-color: #fff;
+    border-radius: 20px;
+    position: relative;
+    left: 40px;
+    display: flex;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.setting-option-wrap{
+    width: 35%;
+    margin-left: 30px;
+}
+
+.setting-option-heading{
+    font-weight: 700;
+}
+
+.setting-option-title{
+    font-weight: 300;
+}
+
+.setting-option-btn{
+    background-color: #6160DC;
+    width: 110px;
+    height: 50px;
+    border-radius: 50px;
+    position: relative;
+    cursor: pointer;
+}
+
+.setting-option-notification{
+    color: #fff;
+    position: relative;
+    left: 20px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.setting-option-circle{
+    width: 45px;
+    height: 45px;
+    position: relative;
+    background-color: #fff;
+    border-radius: 100px;
+    top: -18px;
+    left: 60px;
+}
+.setting-option-save{
+    width: 210px;
+    height: 50px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: #6160DC;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 20px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.setting-option-save:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.setting-option-line{
+    position: absolute;
+width: 0px;
+height: 400px;
+left: 280px;
+top: 30px;
+
+/* Gray */
+
+border: 1px solid #8E8EA1;
+border-style: none solid none none;
+}
+
+
+
+.setting-info-title{
+    margin-left: 50px;
+}
+
+.setting-info-description{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+
+.setting-info-description-wrap{
+    width: 50%;
+    margin-top: 50px;
+}
+
+.setting-info-label{
+    position: relative;
+    margin-right: 10px;
+    top: -40px;
+    user-select: none;
+}
+
+.setting-info-input{
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    border-color: #6160DC;
+    position: relative;
+    top: 5px;
+    left: -5px;
+    font-size: 16px;
+}
+.setting-info-btn{
+    width: 210px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: #6160DC;
+    border-radius: 20px;
+    position: relative;
+    left: 400px;
+    color: #fff;
+    font-size: 20px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.setting-info-btn:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}

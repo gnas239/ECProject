@@ -1,0 +1,183 @@
+.guitietkiem {
+  background-color: #e5e5e5;
+  width: 90%;
+  height: 98vh;
+  padding-bottom: 20px;
+}
+
+.guitietkiem__title {
+  position: absolute;
+  left: 305px;
+  top: 0px;
+}
+
+.taikhoan__wrap {
+  position: absolute;
+  width: 1100px;
+  height: 120px;
+  left: 305px;
+  top: 80px;
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.taikhoannguon__wrap {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.taikhoan__info {
+  position: absolute;
+  display: block;
+
+  left: 305px;
+  top: 200px;
+}
+.wrap__info {
+  position: absolute;
+  width: 1100px;
+  height: 412px;
+  left: 305px;
+  top: 280px;
+  background: #ffffff;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+}
+.taikhoan-input__wrap {
+  display: flex;
+  margin: 30px 0 30px 30px;
+  justify-content: space-between;
+  height: 50px;
+}
+.taikhoan-giahan {
+  font-size: 20px;
+  border-radius: 4px;
+}
+.taikhoan-label {
+  font-size: 20px;
+}
+.taikhoan-input {
+  font-size: 20px;
+  border-radius: 5px;
+}
+.taikhoan-label1 {
+  position: absolute;
+  width: 140px;
+  height: 60px;
+  left: 50px;
+  top: 20px;
+  user-select: none;
+}
+.taikhoan-giahan1 {
+  position: absolute;
+  width: 288px;
+  height: 46px;
+  left: 140px;
+  top: 50px;
+  border-color: #6160dc;
+}
+.taikhoan-label2 {
+  position: absolute;
+  height: 60px;
+  left: 520px;
+  top: 20px;
+  user-select: none;
+}
+.taikhoan-input2 {
+  position: absolute;
+  width: 280px;
+  height: 40px;
+  left: 700px;
+  top: 50px;
+  border-color: #6160dc;
+}
+.taikhoan-label3 {
+  position: absolute;
+  width: 140px;
+  height: 60px;
+  left: 50px;
+  top: 120px;
+  user-select: none;
+}
+.taikhoan-input3 {
+  position: absolute;
+  width: 280px;
+  height: 40px;
+  left: 140px;
+  top: 160px;
+  border-color: #6160dc;
+}
+
+.taikhoan-label4 {
+  position: absolute;
+  width: 140px;
+  height: 60px;
+  left: 520px;
+  top: 120px;
+  user-select: none;
+}
+.taikhoan-input4 {
+  position: absolute;
+  width: 280px;
+  height: 40px;
+  left: 700px;
+  top: 160px;
+  border-color: #6160dc;
+}
+.taikhoan-btn {
+  position: absolute;
+  width: 288px;
+  height: 50px;
+  left: 700px;
+  top: 280px;
+  background: #6160dc;
+  border: #771de9 solid 1px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.taikhoan-btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.taikhoan-line1 {
+  position: absolute;
+  width: 377px;
+  height: 0px;
+  left: 50px;
+  top: 105px;
+  border: 2px solid #000000;
+  border-style: solid none none none;
+}
+.taikhoan-line2 {
+    position: absolute;
+    width: 467px;
+    height: 0px;
+    left: 520px;
+    top: 105px;
+    border: 2px solid #000000;
+    border-style: solid none none none;
+  }
+  .taikhoan-line3 {
+    position: absolute;
+    width: 377px;
+    height: 0px;
+    left: 50px;
+    top: 215px;
+  
+    border: 2px solid #000000;
+    border-style: solid none none none;
+  }
+  .taikhoan-line4 {
+    position: absolute;
+    width: 467px;
+    height: 0px;
+    left: 520px;
+    top: 215px;
+    border: 2px solid #000000;
+    border-style: solid none none none;
+  }

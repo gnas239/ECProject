@@ -1,0 +1,85 @@
+.Taikhoan-wrap{
+    background-color: #e5e5e5;
+    width: 90%;
+    padding-bottom: 80px;
+}
+.Taikhoan-thanhtoan__title{
+    display: block;
+    position: relative;
+    left: -420px;
+}
+
+.Taikhoan-current-wrap{
+    background-color: #fff;
+    width: 1100px;
+    position: relative;
+    left: 57px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Taikhoan-current-title{
+    font-weight: 300;
+    font-size: 20px;
+    user-select: none;
+}
+
+.Taikhoan-current-money{
+    font-weight: 700;
+    font-size: 25px;
+    user-select: none;
+}
+.Taikhoan-tietkiem__title{
+    display: block;
+    position: relative;
+    left: -440px;
+    margin-top: 40px;
+}
+.Taikhoan-saving-wrap{
+    display: flex;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 1100px;
+    position: relative;
+    left: 57px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Taikhoan-save-wrap{
+    width: 30%;
+    margin-left: 30px;
+}
+
+.Taikhoan-saving-title{
+    font-size: 20px;
+    font-weight: 300;
+    user-select: none;
+}
+
+.Taikhoan-saving-money{
+    font-size: 25px;
+    font-weight: 700;
+    user-select: none;
+}
+.Taikhoan-btn{
+    width: 210px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #6160dc;
+    color: #fff;
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+    left: 830px;
+    border: none;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Taikhoan-btn:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
