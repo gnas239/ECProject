@@ -77,7 +77,11 @@
   height: 46px;
   left: 140px;
   top: 50px;
+  padding-left: 20px;
   border-color: #6160dc;
+}
+.taikhoan-giahan1:hover{
+  cursor: pointer;
 }
 .taikhoan-label2 {
   position: absolute;
@@ -88,11 +92,15 @@
 }
 .taikhoan-input2 {
   position: absolute;
-  width: 280px;
-  height: 40px;
+  width: 288px;
+  height: 46px;
   left: 700px;
   top: 50px;
+  padding-left: 20px;
   border-color: #6160dc;
+}
+.taikhoan-input2:hover{
+  cursor: pointer;
 }
 .taikhoan-label3 {
   position: absolute;
@@ -104,10 +112,11 @@
 }
 .taikhoan-input3 {
   position: absolute;
-  width: 280px;
+  width: 260px;
   height: 40px;
   left: 140px;
   top: 160px;
+  padding-left: 20px;
   border-color: #6160dc;
 }
 
@@ -121,11 +130,15 @@
 }
 .taikhoan-input4 {
   position: absolute;
-  width: 280px;
-  height: 40px;
+  width: 288px;
+  height: 46px;
   left: 700px;
   top: 160px;
+  padding-left: 20px;
   border-color: #6160dc;
+}
+.taikhoan-input4:hover{
+  cursor: pointer;
 }
 .taikhoan-btn {
   position: absolute;

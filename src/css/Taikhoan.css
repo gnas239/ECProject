@@ -37,6 +37,11 @@
     left: -440px;
     margin-top: 40px;
 }
+.saving-wrap{
+    position: relative;
+    top: 400px;
+    left: -230px;
+}
 .Taikhoan-saving-wrap{
     display: flex;
     background-color: #fff;
@@ -83,3 +88,6 @@
     cursor: pointer;
 }
 
+.no-saving{
+    padding-bottom: 255px;
+}
