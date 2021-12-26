@@ -14,7 +14,7 @@ function Taikhoan(saving) {
     const interest = new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(save.depositAmount + save.depositAmount*(Number(save.interestRate)/100)/12 * Number(save.period));
     useEffect(()=>{
 
-    },[account.accountBalance,save.depositAmount])
+    },[save.depositAmount])
     const handleClick = ()=>{
         const today = new Date()
         const dateCurrent = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+(today.getDate())
@@ -22,9 +22,9 @@ function Taikhoan(saving) {
         dateEnd.setMonth(dateEnd.getMonth()-parseInt(save.period))
         const dayEnd = dateEnd.getFullYear()+'-'+(dateEnd.getMonth()+1)+'-'+(dateEnd.getDate()+1)
         if ((Date.parse(dateCurrent)-Date.parse(save.dayEnd))/(24*3600*1000)>= 0){
-            account.accountBalance += save.depositAmount + save.depositAmount*(Number(save.interestRate)/100)/12 * Number(save.period);
-            // let surplus = Math.floor(save.depositAmount*(Date.parse(dateCurrent)-Date.parse(save.dayEnd))/(24*3600*1000)*(0.002/365))
-            // account.accountBalance += surplus
+            account.accountBalance += (save.depositAmount + save.depositAmount*(Number(save.interestRate)/100)/12 * Number(save.period));
+            let surplus = Math.floor(save.depositAmount*(Date.parse(dateCurrent)-Date.parse(save.dayEnd))/(24*3600*1000)*(0.002/365))
+            account.accountBalance += surplus
         }else{
             let surplus = Math.floor(save.depositAmount*((Date.parse(dateCurrent)-Date.parse(dayEnd))/(24*3600*1000))*(0.002/365))
             account.accountBalance += save.depositAmount
