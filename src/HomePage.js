@@ -44,15 +44,14 @@ function HomePage(){
             <div className="homepage__footer">
                 <div className="homepage-wrap">
                     <img className="homepage-img" src={logoChuyentien}/>
-                    <h4 className="homepage-text">Chuyển tiền nội bộ ngân hàng</h4>
+                    <h4 className="homepage-text">Chuyển tiền</h4>
                 </div>
                 <div>
-                    <Paypal/>
-                    input
+                    
                 </div>
                 <div className="homepage-wrap">
-                    <img className="homepage-img" src={logoLienNganHang}/>
-                    <h4 className="homepage-text">Chuyển tiền liên ngân hàng</h4>
+                    <Paypal/>
+                    <h4 className="homepage-text">Nạp tiền vào tài khoản</h4>
                 </div>
                 <div className="homepage-wrap">
                     <img className="homepage-img" src={logoGuiTien}/>
