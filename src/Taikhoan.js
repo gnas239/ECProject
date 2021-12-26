@@ -22,7 +22,7 @@ function Taikhoan(saving) {
         dateEnd.setMonth(dateEnd.getMonth()-parseInt(save.period))
         const dayEnd = dateEnd.getFullYear()+'-'+(dateEnd.getMonth()+1)+'-'+(dateEnd.getDate()+1)
         if ((Date.parse(dateCurrent)-Date.parse(save.dayEnd))/(24*3600*1000)>= 0){
-            account.accountBalance += save.depositAmount*(1 + Number(save.interestRate)/100) * Number(save.period)
+            account.accountBalance += save.depositAmount + save.depositAmount*(Number(save.interestRate)/100)/12 * Number(save.period);
             let surplus = Math.floor(save.depositAmount*(Date.parse(dateCurrent)-Date.parse(save.dayEnd))/(24*3600*1000)*(0.002/365))
             account.accountBalance += surplus
         }else{
